@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('api/todo', 'API\TodoController');
+Route::resource('api/todos', 'API\TodoController');
